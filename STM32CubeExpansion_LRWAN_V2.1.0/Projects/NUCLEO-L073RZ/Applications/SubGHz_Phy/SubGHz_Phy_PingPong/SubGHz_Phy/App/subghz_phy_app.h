@@ -42,7 +42,7 @@ extern "C" {
 #define USE_MODEM_LORA  1
 #define USE_MODEM_FSK   0
 
-#define REGION_EU868
+#define REGION_US915  // REGION_EU868
 
 #if defined( REGION_AS923 )
 

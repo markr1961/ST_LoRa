@@ -96,6 +96,12 @@ void HAL_MspInit(void)
 #endif
 
   /* USER CODE BEGIN MspInit 1 */
+  // enable the debug register:
+  SET_BIT(RCC->APB2ENR, (RCC_APB2ENR_DBGMCUEN));
+  SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_SLEEP);   //LL_DBGMCU_EnableDBGSleepMode();
+  SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STOP);    //LL_DBGMCU_EnableDBGStopMode();
+  // stop the WD in debug
+  //SET_BIT(DBGMCU->APB1FZ, DBGMCU_APB1_FZ_DBG_IWDG_STOP);   //LL_DBGMCU_APB1_GRP1_FreezePeriph(LL_DBGMCU_APB1_GRP1_IWDG_STOP);
 
   /* USER CODE END MspInit 1 */
 }

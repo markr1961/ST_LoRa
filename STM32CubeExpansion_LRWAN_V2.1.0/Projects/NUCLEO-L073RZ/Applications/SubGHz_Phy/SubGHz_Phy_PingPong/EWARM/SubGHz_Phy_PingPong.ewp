@@ -6464,9 +6464,6 @@
                 <name>$PROJ_DIR$\..\Core\Src\dma.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\Core\Src\main.c</name>
-            </file>
-            <file>
                 <name>$PROJ_DIR$\..\Core\Src\rtc.c</name>
             </file>
             <file>
@@ -6506,6 +6503,9 @@
                 <name>$PROJ_DIR$\..\SubGHz_Phy\Target\nucleo_l073rz_bus.c</name>
             </file>
         </group>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\main.c</name>
+        </file>
     </group>
     <group>
         <name>Doc</name>
