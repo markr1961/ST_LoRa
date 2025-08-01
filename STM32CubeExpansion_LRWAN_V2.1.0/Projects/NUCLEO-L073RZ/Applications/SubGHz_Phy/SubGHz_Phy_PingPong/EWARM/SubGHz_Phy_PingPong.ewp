@@ -6412,6 +6412,54 @@
         </group>
         <group>
             <name>Core</name>
+            <group>
+                <name>include</name>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\dma.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\main.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\platform.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\rtc.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\rtc_if.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\stm32_lpm_if.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\stm32l0xx_hal_conf.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\stm32l0xx_it.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\sys_app.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\sys_conf.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\sys_debug.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\usart.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\usart_if.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\utilities_conf.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\Core\Inc\utilities_def.h</name>
+                </file>
+            </group>
             <file>
                 <name>$PROJ_DIR$\..\Core\Src\dma.c</name>
             </file>
